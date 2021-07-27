@@ -1,0 +1,13 @@
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\bin\Debug\netcoreapp3.1\WosHungryNinja.exe
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\bin\Debug\netcoreapp3.1\WosHungryNinja.deps.json
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\bin\Debug\netcoreapp3.1\WosHungryNinja.runtimeconfig.json
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\bin\Debug\netcoreapp3.1\WosHungryNinja.runtimeconfig.dev.json
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\bin\Debug\netcoreapp3.1\WosHungryNinja.dll
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\bin\Debug\netcoreapp3.1\WosHungryNinja.pdb
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\obj\Debug\netcoreapp3.1\WosHungryNinja.csprojAssemblyReference.cache
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\obj\Debug\netcoreapp3.1\WosHungryNinja.AssemblyInfoInputs.cache
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\obj\Debug\netcoreapp3.1\WosHungryNinja.AssemblyInfo.cs
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\obj\Debug\netcoreapp3.1\WosHungryNinja.csproj.CoreCompileInputs.cache
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\obj\Debug\netcoreapp3.1\WosHungryNinja.dll
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\obj\Debug\netcoreapp3.1\WosHungryNinja.pdb
+C:\Users\Geo\code\wos\cSharp\WosHungryNinja\obj\Debug\netcoreapp3.1\WosHungryNinja.genruntimeconfig.cache
