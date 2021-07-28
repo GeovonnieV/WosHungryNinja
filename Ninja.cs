@@ -8,6 +8,8 @@ namespace WosHungryNinja
         private int calorieIntake;
         public List<Food> FoodHistory;
 
+         bool ninjaFull;
+
         public Ninja()
         {
             FoodHistory = new List<Food>()
@@ -19,22 +21,32 @@ namespace WosHungryNinja
                 };
 
             calorieIntake = 0;
-          
+
         }
 
 
         // eat
         public void Eat()
         {
-            System.Console.WriteLine($"eat is running starting calories is {calorieIntake} ");
-            calorieIntake += 1200;
-            System.Console.WriteLine($"now calories are {calorieIntake} and Ninja is full");
-            Random rand = new Random();
-            int randomNum = rand.Next(0,3);
-            System.Console.WriteLine(FoodHistory[randomNum].Name);
-            System.Console.WriteLine(FoodHistory[randomNum].IsSpicy);
-            System.Console.WriteLine(FoodHistory[randomNum].IsSweet);
-        
+            if (calorieIntake < 1200)
+            {
+                ninjaFull = false;
+                System.Console.WriteLine($"eat is running starting calories is {calorieIntake} ");
+                calorieIntake += 1200;
+                System.Console.WriteLine($"now calories are {calorieIntake} and Ninja is full");
+                Random rand = new Random();
+                int randomNum = rand.Next(0, 3);
+                System.Console.WriteLine(FoodHistory[randomNum].Name);
+                System.Console.WriteLine(FoodHistory[randomNum].IsSpicy);
+                System.Console.WriteLine(FoodHistory[randomNum].IsSweet);
+                ninjaFull = true;
+                
+            }
+            else
+                {
+                    System.Console.WriteLine("Im not Hungry im full!");
+                }
+
 
 
         }
@@ -46,18 +58,11 @@ namespace WosHungryNinja
         {
             get
             {
-                if (calorieIntake > 1200)
-                {
-                    System.Console.WriteLine("Ninja is to full to eat");
-                    return true;
+                return ninjaFull;
 
-                }
-                else
-                {
-                    Eat();
-                    return false;
-                }
             }
+
+
         }
 
 

@@ -11,8 +11,8 @@ namespace WosHungryNinja
             something.Serve();
             // ninja
             Ninja bob = new Ninja();
-            System.Console.WriteLine(bob.IsFull);
-            // bob.Eat();   
+            
+            bob.Eat();   
 
 
         }
